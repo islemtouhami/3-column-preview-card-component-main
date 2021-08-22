@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family:"Lexend Deca";
+}
+button {
+    padding: 15px;
+    width: 150px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: 3px solid;
+    border-color: transparent;
+    font-family:"Lexend Deca";;
+    font-size: 15px;
+}
+.container{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 85vw;
+}
+ h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: capitalize;
+    margin-top: 10px ;
+    font-family: "Big Shoulders Display";
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+ p{
+    color: hsla(0, 0%, 100%, 0.75) ;
+    line-height: 2;
+}
+.cart .sedans{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0 ;
+    padding: 45px;
+}
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+.sedans button:hover{
+    cursor: pointer;
+     background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+.cart .SUVs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+    border: 1px solid hsl(184, 100%, 22%) ;
+}
+.SUVs button{
+    color: hsl(184, 100%, 22%);
+}
+.SUVs button:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+.cart .Luxury{
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+    padding: 45px;
+}
+.Luxury button{
+    color: hsl(179, 100%, 13%);
+}
+.Luxury button:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+/*mobile*/
+@media (min-width: 375px) {
+}
+/*Desktop*/
+@media (min-width:1400px){
+
+    button{
+        margin-top: 80px;
+    }
+    .container{
+        display: flex;
+         min-height: 95vh;
+         justify-content: center;
+         align-items: center;
+    }
+    .cart{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width:65vw;
+        flex-direction: row;
+    }
+ .cart .sedans{
+      border-radius: 10px 0 0 10px;
+      padding: 45px;
+  }
+  .cart .Luxury{
+      border-radius: 0 10px 10px 0 ;
+  }
+}
