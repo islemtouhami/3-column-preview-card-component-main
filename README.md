@@ -21,7 +21,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL:[solution}(https://github.com/islemtouhami/3-column-preview-card-component-main)
+- Solution URL:[solution](https://github.com/islemtouhami/3-column-preview-card-component-main)
 - Live site URL:[live site URL](https://cocky-jang-a73151.netlify.app/)
 
 ## My process
