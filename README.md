@@ -16,13 +16,13 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot2.png)
+![](./design/screenshot.PNG)
+![](./design/screenshot2.PNG)
 
 ### Links
 
--Solution URL:()
--Live site URL:[live site URL]()
+- Solution URL:[solution}(https://github.com/islemtouhami/3-column-preview-card-component-main)
+- Live site URL:[live site URL](https://cocky-jang-a73151.netlify.app/)
 
 ## My process
 
